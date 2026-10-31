@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="cbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="50%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#3730A3" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Canvas -->
+  <rect width="512" height="512" rx="128" fill="#090A0F" />
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="#12141C" stroke="rgba(255,255,255,0.08)" stroke-width="4" />
+  
+  <!-- Bridge / Academic Shield Geometry -->
+  <path d="M128 176 L256 112 L384 176 L384 272 C384 352 256 416 256 416 C256 416 128 352 128 272 Z" fill="url(#cbGrad)" />
+  
+  <!-- Offline Sync Loop Indicator -->
+  <circle cx="256" cy="272" r="56" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-dasharray="240 60" />
+  <polygon points="280,212 300,230 260,230" fill="#FFFFFF" />
+  
+  <!-- Emerald Authority Seal -->
+  <circle cx="368" cy="160" r="28" fill="url(#accentGrad)" stroke="#090A0F" stroke-width="6" />
+  <path d="M356 160 L364 168 L380 152" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
